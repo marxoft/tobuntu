@@ -1,0 +1,8 @@
+toBuntu
+===================
+
+toBuntu is a client for Ubuntu One, written using Qt/C++. toBuntu uses libqubuntuone and libqubuntuone-declarative.
+
+The GitHub repository for libqubuntuone is at https://github.com/marxoft/libqubuntuone
+
+The GitHub repository for libqubuntuone-declarative is at https://github.com/marxoft/libqubuntuone-declarative

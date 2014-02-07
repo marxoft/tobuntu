@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+	<file>AboutDialog.qml</file>
+	<file>AccountPage.qml</file>
+	<file>AuthenticationPage.qml</file>
+	<file>FileDetailsDialog.qml</file>
+	<file>FolderListDelegate.qml</file>
+	<file>FolderListDialog.qml</file>
+	<file>InfoDialog.qml</file>
+	<file>ListItem.qml</file>
+	<file>main.qml</file>
+        <file>MainPage.qml</file>
+	<file>MyButton.qml</file>
+	<file>MyCheckBox.qml</file>
+	<file>MyProgressBar.qml</file>
+	<file>MySheet.qml</file>
+	<file>MySwitch.qml</file>
+	<file>MyTextArea.qml</file>
+	<file>MyTextField.qml</file>
+	<file>NewFolderDialog.qml</file>
+        <file>NodeListDelegate.qml</file>
+	<file>PageHeader.qml</file>
+	<file>ProgressDialog.qml</file>
+	<file>RenameDialog.qml</file>
+	<file>SeparatorLabel.qml</file>
+	<file>SettingsPage.qml</file>
+	<file>UploadDialog.qml</file>
+	<file>ValueDialog.qml</file>
+	<file>ValueListItem.qml</file>
+	<file>ValueSelector.qml</file>
+    </qresource>
+</RCC>

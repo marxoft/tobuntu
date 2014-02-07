@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=toBuntu
+Exec=/usr/bin/invoker --type=d -s --splash=/opt/tobuntu/splash/splash.png --splash-landscape=/opt/tobuntu/splash/splash-landscape.png /opt/tobuntu/bin/tobuntu
+Icon=/usr/share/icons/hicolor/80x80/apps/tobuntu.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

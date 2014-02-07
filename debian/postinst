@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ -e /home/user/.config/toBuntu/toBuntu.conf ]
+    then
+        echo 'Removing old toBuntu config file'
+        su -c 'rm /home/user/.config/toBuntu/toBuntu.conf' - user
+fi
+
+exit 0

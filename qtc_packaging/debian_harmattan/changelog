@@ -1,0 +1,11 @@
+tobuntu (0.1.1) unstable; urgency=low
+
+  * Fixed connection to changes in transfer status.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Fri, 07 Feb 2014 14:15:24 +0000
+
+tobuntu (0.1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Fri, 31 Jan 2014 21:47:02 +0000

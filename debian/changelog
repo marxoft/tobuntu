@@ -1,0 +1,30 @@
+tobuntu (0.1.1) unstable; urgency=low
+
+  * Fixed moving/renaming of nodes.
+  * Fixed storing/restoring of transfers.
+  * Code re-factoring due to changes in libqubuntuone.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Wed, 05 Feb 2014 19:48:12 +0100
+
+tobuntu (0.1.0) unstable; urgency=low
+
+  * Now using libqubuntuone shared library.
+  * Code re-factoring and bug fixes.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Sun, 26 Jan 2014 15:00:12 +0100
+
+tobuntu (0.0.2) unstable; urgency=low
+  * Fixed error in creating new folders in root folder.
+  * Fixed error in removing Ubuntu One credentials.
+  * Fixed error in restoring incomplete downloads on startup.
+  * Fixed orientation of progress dialog.
+  * Files now loaded automatically after adding account.
+  * Files now cleared automatically after removing account.
+
+ -- Stuart Howarth <stuhowarth77@gmail.com>  Tue, 23 Oct 2012 14:41:24 +0100
+
+tobuntu (0.0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Stuart Howarth <stuhowarth77@gmail.com>  Tue, 23 Oct 2012 01:54:30 +0100
