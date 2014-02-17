@@ -137,6 +137,10 @@ Page {
                 }
             }
             onPressAndHold: {
+                if (nodeModel.status === QUbuntuOneNodeListModel.Loading) {
+                    return;
+                }
+
                 view.selectedIndex = index;
                 contextMenu.open();
             }
