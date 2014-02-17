@@ -110,6 +110,7 @@ void TransferManager::startNextTransfers() {
 
     while ((active < MAX_CONCURRENT_TRANSFERS) && (i < m_transfers.size())) {
         if (m_transfers.at(i)->status() == FileTransfer::Queued) {
+            m_activeTransfers.append(m_transfers.at(i));
             m_transfers.at(i)->start();
             active++;
         }
@@ -121,10 +122,8 @@ void TransferManager::startNextTransfers() {
 void TransferManager::onTransferStatusChanged(FileTransfer::Status status) {
     if (FileTransfer *transfer = qobject_cast<FileTransfer*>(this->sender())) {
         switch (status) {
-        case FileTransfer::Connecting:
-        case FileTransfer::Downloading:
-        case FileTransfer::Uploading:
-            m_activeTransfers.append(transfer);
+        case FileTransfer::Queued:
+            m_queueTimer.start();
             return;
         case FileTransfer::Paused:
         case FileTransfer::Failed:
