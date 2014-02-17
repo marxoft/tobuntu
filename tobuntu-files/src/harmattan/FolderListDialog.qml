@@ -90,17 +90,6 @@ MySheet {
             flickableItem: view
         }
 
-        Label {
-            anchors.centerIn: view
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
-            font.pixelSize: 40
-            font.bold: true
-            color: theme.inverted ? UI.COLOR_INVERTED_SECONDARY_FOREGROUND : UI.COLOR_SECONDARY_FOREGROUND
-            text: qsTr("Folder empty")
-            visible: folderModel.count == 0
-        }
-
         ToolIcon {
             id: backButton
 
